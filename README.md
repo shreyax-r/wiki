@@ -1,23 +1,23 @@
 # Wiki Encyclopedia 📚
  
-A Django-powered encyclopedia web app where users can browse, search, edit, and create entries written in markdown. *This project was developed as part of the Harvard CS50 Web Programming with Python and JavaScript course.*
+A Django-powered encyclopedia web app where users can browse, search, edit, and create entries written in markdown. *This project was developed as part of the Harvard CS50 Web Programming course.*
   
 ## Features ✨
  
  
-- **Entry Page (`/wiki/TITLE`):**
+- **Entry Page:**
  
  
   - Displays the contents of a Markdown entry converted to HTML.
  
-  - Renders a 404-style error page if the requested entry doesn’t exist.
+  - Renders an error page if the requested entry doesn’t exist.
  
   - Includes an Edit button to update existing entries.
  
 
  
  
-- **Index Page (`/`):**
+- **Index Page:**
  
  
   - Lists all encyclopedia entries.
@@ -31,24 +31,22 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 - **Search Functionality:**
  
  
-  - Sidebar search box that supports: 
+  Sidebar search box that supports: 
  
     - Exact match redirect to the entry page.
  
-    - Partial match results shown on a dedicated search results page.
- 
-  - Clicking a result opens that entry.
+    - Partial match results shown on a dedicated search results page, where clicking a result opens that entry.
  
 
  
  
  
-- **Create New Page (`/new`):**
+- **Create New Page:**
  
  
   - Form for users to add a new entry with a title and Markdown content.
  
-  - Prevents overwriting existing entries (shows error instead).
+  - Shows an error if a new entry is submitted with a title that already exists.
  
   - Redirects to the new entry page upon successful save.
  
@@ -56,7 +54,7 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
  
  
  
-- **Edit Page (`/wiki/TITLE/edit`):**
+- **Edit Page:**
  
  
   - Pre-populated textarea with current Markdown content.
@@ -72,7 +70,7 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 - **Random Page:**
  
  
-  - Instantly opens a randomly selected encyclopedia entry from the list.
+  Instantly opens a randomly selected encyclopedia entry from the list.
  
 
  
@@ -106,20 +104,13 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 ## Usage 🚀
  
  
-1.  
-Run the development server:
- `python3 manage.py runserver ` 
+1.  Run the development server: `python3 manage.py runserver ` 
  
-2.  
-Navigate to `http://localhost:8000` to use the Wiki.
+2.  Navigate to `http://localhost:8000` to use the Wiki.
  
+3.  Use the sidebar to navigate, search, or create entries.
  
-3.  
-Use the sidebar to navigate, search, or create entries.
- 
- 
-4.  
-Click on any entry to read or edit its content.
+4.  Click on any entry to read or edit its content.
  
  
 
@@ -131,8 +122,10 @@ Click on any entry to read or edit its content.
  
 - Django
  
-- HTML5, CSS3
- 
+- HTML5
+
+- CSS3
+
 - Markdown (custom parser with RegEx)
  
 
@@ -150,4 +143,6 @@ Click on any entry to read or edit its content.
   
 ## Author 👩‍💻
  
-**Shreya Raj** GitHub: [shreyax-r](https://github.com/shreyax-r) Email: rshreya2024@gmail.com
+**Shreya Raj** 
+GitHub: [shreyax-r](https://github.com/shreyax-r) 
+Email: rshreya2024@gmail.com
