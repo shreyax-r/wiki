@@ -31,7 +31,7 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 - **Search Functionality:**
  
  
-  Sidebar search box that supports: 
+  - Sidebar search box that supports: 
  
     - Exact match redirect to the entry page.
  
@@ -70,7 +70,7 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 - **Random Page:**
  
  
-  Instantly opens a randomly selected encyclopedia entry from the list.
+  - Instantly opens a randomly selected encyclopedia entry from the list.
  
 
  
@@ -142,7 +142,6 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 
   
 ## Author 👩‍💻
- 
-**Shreya Raj** 
-GitHub: [shreyax-r](https://github.com/shreyax-r) 
+**Shreya Raj**  
+GitHub: [shreyax-r](https://github.com/shreyax-r)  
 Email: rshreya2024@gmail.com
