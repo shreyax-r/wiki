@@ -1,14 +1,11 @@
 # Wiki Encyclopedia 📚
  
-A Django-powered encyclopedia web app where users can browse, search, edit, and create entries written in Markdown.
- 
-*This project was developed as part of the Harvard CS50 Web Programming with Python and JavaScript course.*
+A Django-powered encyclopedia web app where users can browse, search, edit, and create entries written in markdown. *This project was developed as part of the Harvard CS50 Web Programming with Python and JavaScript course.*
   
 ## Features ✨
  
  
--  
-**Entry Page (`/wiki/TITLE`):**
+- **Entry Page (`/wiki/TITLE`):**
  
  
   - Displays the contents of a Markdown entry converted to HTML.
@@ -20,8 +17,7 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 
  
  
--  
-**Index Page (`/`):**
+- **Index Page (`/`):**
  
  
   - Lists all encyclopedia entries.
@@ -31,8 +27,8 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 
  
  
--  
-**Search Functionality:**
+ 
+- **Search Functionality:**
  
  
   - Sidebar search box that supports: 
@@ -41,16 +37,13 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
  
     - Partial match results shown on a dedicated search results page.
  
-
- 
- 
   - Clicking a result opens that entry.
  
 
  
  
--  
-**Create New Page (`/new`):**
+ 
+- **Create New Page (`/new`):**
  
  
   - Form for users to add a new entry with a title and Markdown content.
@@ -62,8 +55,8 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 
  
  
--  
-**Edit Page (`/wiki/TITLE/edit`):**
+ 
+- **Edit Page (`/wiki/TITLE/edit`):**
  
  
   - Pre-populated textarea with current Markdown content.
@@ -75,8 +68,8 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 
  
  
--  
-**Random Page:**
+ 
+- **Random Page:**
  
  
   - Instantly opens a randomly selected encyclopedia entry from the list.
@@ -84,8 +77,8 @@ A Django-powered encyclopedia web app where users can browse, search, edit, and 
 
  
  
--  
-**Markdown to HTML Rendering:**
+ 
+- **Markdown to HTML Rendering:**
  
  
   - Converts Markdown to HTML using a custom parser (no external libraries).
